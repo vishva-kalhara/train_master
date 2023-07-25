@@ -60,7 +60,7 @@ class _HomeState extends State<Home> {
                         Row(
                           children: [
                             Text(
-                              "Search Trains",
+                              "Search Trains 1",
                               style: TextStyle(
                                 fontSize: 20,
                                 fontWeight: FontWeight.bold,
