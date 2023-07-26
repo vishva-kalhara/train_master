@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:train_master/summary.dart';
+
+import 'package:train_master/train_master.dart';
 
 var kColorScheme = ColorScheme.fromSeed(
   seedColor: const Color.fromARGB(255, 94, 0, 202),
@@ -26,7 +27,7 @@ void main() {
       ),
     ),
     // inputDecorationTheme: InputDecorationTheme(focusedBorder: UnderlineInputBorder(borderSide: BorderSide(color: kColorScheme.error)))),
-    home: const Summary(),
+    home: const TrainMaster(),
   ));
 }
 
